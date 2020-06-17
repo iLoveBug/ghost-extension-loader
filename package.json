@@ -1,0 +1,29 @@
+{
+  "name": "ghost-extension-loader",
+  "version": "1.0.0",
+  "description": "Ghost extension card loader for front-end",
+  "keywords": [
+    "ghost",
+    "theme",
+    "extension",
+    "card",
+    "plugin",
+    "loader",
+    "vue"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iLoveBug/ghost-extension-loader.git"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "author": "fan.zhang@me.com",
+  "license": "MIT",
+  "devDependencies": {
+    "beeper": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "pump": "^3.0.0"
+  }
+}
