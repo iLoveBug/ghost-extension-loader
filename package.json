@@ -1,6 +1,6 @@
 {
   "name": "ghost-extension-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ghost extension card loader for front-end",
   "keywords": [
     "ghost",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "beeper": "^2.0.0",
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.2",
     "pump": "^3.0.0"
   }
