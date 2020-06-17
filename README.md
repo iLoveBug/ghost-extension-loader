@@ -10,7 +10,7 @@ The most simple way for Ghost extension card loading it using code injection wit
 In the Ghost admin page, go to Code Injection, in the Site Footer section, add the following lines:
 
 ```
-<script src="https://cdn.jsdelivr.net/gh/iLoveBug/ghost-extension-loader@1.0.0/dist/extension-loader.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/iLoveBug/ghost-extension-loader@1.0.1/dist/extension-loader.min.js"></script>
 ```
 
 ### In the theme default.hbs file
@@ -21,6 +21,6 @@ In the body section of default.hbs, add the following lines:
 
 ```
 {{#is "page, post"}}
-    <script src="https://cdn.jsdelivr.net/gh/iLoveBug/ghost-extension-loader@1.0.0/dist/extension-loader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/iLoveBug/ghost-extension-loader@1.0.1/dist/extension-loader.min.js"></script>
 {{/is}}
 ```
