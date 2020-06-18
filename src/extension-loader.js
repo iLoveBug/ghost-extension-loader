@@ -7,7 +7,7 @@
 
 (function (window, document) {
     var applyVueForCards = function () {
-        var cards = document.querySelectorAll('.kg-extension-card')
+        var cards = document.querySelectorAll('.kg-vue-card')
         var scripts = {}
         cards.forEach(function (card) {
             var scriptUrl = card.getAttribute('script')
