@@ -1,6 +1,6 @@
 {
   "name": "ghost-extension-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ghost extension card loader for front-end",
   "keywords": [
     "ghost",

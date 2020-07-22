@@ -53,7 +53,7 @@
 
     var vueScript = document.createElement('script');
     vueScript.type = 'text/javascript';
-    vueScript.src = 'https://cdn.jsdelivr.net/npm/vue@2.6.10';
+    vueScript.src = 'https://cdn.jsdelivr.net/npm/vue@2.6.11';
     document.getElementsByTagName('head')[0].appendChild(vueScript);
 
     document.addEventListener('DOMContentLoaded', applyVueForCards);
